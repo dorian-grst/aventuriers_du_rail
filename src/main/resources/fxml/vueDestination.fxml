@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<fx:root type="javafx.scene.layout.VBox" alignment="CENTER" prefHeight="135.0" prefWidth="216.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="carte_destination" onAction="#destinationClique" mnemonicParsing="false" prefHeight="82.0" prefWidth="200.0" style="-fx-background-color: #898395; -fx-background-radius: 15; -fx-border-color: #E5EAED; -fx-border-radius: 12; -fx-border-width: 5;" text="Venezia - Constantunople (10)" textFill="#e5eaed" />
+   </children>
+</fx:root>

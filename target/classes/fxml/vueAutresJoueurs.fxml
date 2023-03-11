@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="293.0" prefWidth="310.0" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="containerPaneJoueur" alignment="TOP_CENTER" prefHeight="293.0" prefWidth="310.0" spacing="15.0">
+         <children>
+            <HBox fx:id="supprimer_j2" alignment="CENTER" prefHeight="60.0" prefWidth="310.0">
+               <children>
+                  <AnchorPane prefHeight="60.0" prefWidth="270.0" style="-fx-background-color: #9A93A7; -fx-background-radius: 15;">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="231.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="55.0" prefWidth="55.0">
+                                 <HBox.margin>
+                                    <Insets left="5.0" />
+                                 </HBox.margin>
+                                 <children>
+                                    <ImageView fx:id="avatar_j2" fitHeight="40.0" fitWidth="40.0">
+                                       <image>
+                                          <Image url="@../images/imageJoueurs/avatar2.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="55.0" prefWidth="170.0">
+                                 <children>
+                                    <Label fx:id="nom_j2" prefHeight="41.0" prefWidth="155.0" text="JOUEUR 2" textFill="#e5eaed">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets top="5.0" />
+                     </HBox.margin>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox fx:id="supprimer_j3" alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane prefHeight="150.0" prefWidth="270.0" style="-fx-background-color: #9A93A7; -fx-background-radius: 15;">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="231.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="55.0" prefWidth="55.0">
+                                 <HBox.margin>
+                                    <Insets left="5.0" />
+                                 </HBox.margin>
+                                 <children>
+                                    <ImageView fx:id="avatar_j3" fitHeight="40.0" fitWidth="40.0">
+                                       <image>
+                                          <Image url="@../images/imageJoueurs/avatar3.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="55.0" prefWidth="170.0">
+                                 <children>
+                                    <Label fx:id="nom_j3" prefHeight="41.0" prefWidth="155.0" text="JOUEUR 3" textFill="#e5eaed">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox fx:id="supprimer_j4" alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane prefHeight="150.0" prefWidth="270.0" style="-fx-background-color: #9A93A7; -fx-background-radius: 15;">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="231.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="55.0" prefWidth="55.0">
+                                 <HBox.margin>
+                                    <Insets left="5.0" />
+                                 </HBox.margin>
+                                 <children>
+                                    <ImageView fx:id="avatar_j4" fitHeight="40.0" fitWidth="40.0">
+                                       <image>
+                                          <Image url="@../images/imageJoueurs/avatar4.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="55.0" prefWidth="170.0">
+                                 <children>
+                                    <Label fx:id="nom_j4" prefHeight="41.0" prefWidth="155.0" text="JOUEUR 4" textFill="#e5eaed">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox fx:id="supprimer_j5" alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane prefHeight="150.0" prefWidth="270.0" style="-fx-background-color: #9A93A7; -fx-background-radius: 15;">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="231.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="55.0" prefWidth="55.0">
+                                 <HBox.margin>
+                                    <Insets left="5.0" />
+                                 </HBox.margin>
+                                 <children>
+                                    <ImageView fx:id="avatar_j5" fitHeight="40.0" fitWidth="40.0">
+                                       <image>
+                                          <Image url="@../images/imageJoueurs/avatar5.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="55.0" prefWidth="170.0">
+                                 <children>
+                                    <Label fx:id="nom_j5" prefHeight="41.0" prefWidth="155.0" text="JOUEUR 5" textFill="#e5eaed">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</fx:root>

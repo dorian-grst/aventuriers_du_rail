@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="645.0" prefWidth="310.0" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" prefHeight="731.0" prefWidth="310.0">
+         <children>
+            <AnchorPane prefHeight="520.0" prefWidth="230.0" style="-fx-background-color: #9A93A7; -fx-background-radius: 15;">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <children>
+                  <VBox alignment="CENTER" prefHeight="459.0" prefWidth="270.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="145.0" prefWidth="230.0">
+                           <children>
+                              <Label text="Wagons (0)" fx:id="label_wagon" textFill="#e5eaed">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </Label>
+                              <ImageView id="pioche_wagon" onMouseClicked="#piocheWagonClique" fitHeight="100.0" fitWidth="150.0">
+                                 <image>
+                                    <Image url="@../images/wagons.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="145.0" prefWidth="230.0">
+                           <children>
+                              <Label text="Destinations (0)" fx:id="label_destination" textFill="#e5eaed">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </Label>
+                              <ImageView id="pioche_destination" onMouseClicked="#piocheDestinationClique" fitHeight="100.0" fitWidth="150.0">
+                                 <image>
+                                    <Image url="@../images/destinations.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="145.0" prefWidth="230.0">
+                           <children>
+                              <Label text="Défausse (0)" fx:id="label_defausse" textFill="#e5eaed">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </Label>
+                              <Button id="defausse" alignment="CENTER" mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #B7B1C2; -fx-background-radius: 0;" textFill="#b7b1c2">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #9A93A7; -fx-background-radius: 15;">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </VBox.margin>
+               <children>
+                  <Button fx:id="bouton_passer" alignment="CENTER" mnemonicParsing="false" onAction="#passerClique" prefHeight="101.0" prefWidth="270.0" style="-fx-background-color: #F2BFBF; -fx-border-width: 5; -fx-border-color: #FFFFFF; -fx-border-radius: 10; -fx-background-radius: 15;" text="PASSER" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #9A93A7; -fx-background-radius: 15;">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </VBox.margin>
+               <children>
+                  <Button fx:id="bouton_regle" alignment="CENTER" mnemonicParsing="false" onMouseClicked="#regleClique" prefHeight="101.0" prefWidth="270.0" style="-fx-background-color: #B7B1C2; -fx-border-width: 5; -fx-border-color: #FFFFFF; -fx-border-radius: 10; -fx-background-radius: 15;" text="RÈGLES" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</fx:root>
