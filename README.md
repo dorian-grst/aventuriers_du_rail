@@ -2,13 +2,13 @@
 
 **SAE AVENTURIER DU RAIL** :label:
 
-Vous trouverez dans ce repository notre travail sur la SAE Aventurier du rail [1ère année].
+In this repository, you will find our work on the SAE Aventurier du rail [1st year].
 
 # Installation
 
-Téléchargez ou clonez ce dépôt sur votre ordinateur local.
+Download or clone this repository to your local computer.
 
-# Lancement
+# Launch
 
-1. Une fois l'installation des dépendances terminé, exécutez le fichier "RailsIMH" puis "index.html".
-2. L'application devrait maintenant être accessible.
+1. Once the installation of the dependencies is complete, run the file `RailsIMH` then `index.html`.
+2. The application should now be accessible.
